@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://milsistemas.com"
+baseURL = "https://milsistemas.com/"
 languageCode = "en-us"
 title = "Enov Hugo"
 publishDir = "docs"
