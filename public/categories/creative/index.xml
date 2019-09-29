@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creative on Enov Hugo</title>
+    <link>https://milsistemas.com/categories/creative/</link>
+    <description>Recent content in Creative on Enov Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Sep 2019 10:30:13 +0600</lastBuildDate>
+    
+	<atom:link href="https://milsistemas.com/categories/creative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Marketing strategy your should know</title>
+      <link>https://milsistemas.com/blog/post.2/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      
+      <guid>https://milsistemas.com/blog/post.2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+    
+    <item>
+      <title>Marketing strategy your should know</title>
+      <link>https://milsistemas.com/blog/post.6/</link>
+      <pubDate>Mon, 16 Sep 2019 10:30:13 +0600</pubDate>
+      
+      <guid>https://milsistemas.com/blog/post.6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur?</description>
+    </item>
+    
+  </channel>
+</rss>
