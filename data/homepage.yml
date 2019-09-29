@@ -1,23 +1,14 @@
 ################################## Banner #################################
 banner:
-  subtitle : "Prepare for new future"
-  title : "Helping customers be their best in the moments that matter."
+  subtitle : "Soluciones Informáticas"
+  title : "Mil Sistemas"
 
-  button1:
-    enable : true
-    label : "Get started"
-    link : "pricing"
-
-  button2:
-    enable : true
-    label : "Discover Enov"
-    link : "service"
-
+ 
 ######################## Banner call to action ############################
 bannerCTA:
   enable : true
-  title : "Crafting visually stunning memorable experiences for web."
-  content : "Magni perspiciatis sequi, molestias dignissimos numquam placeat eveniet nobis rerum eos, facilis minus, est illo adipisci soluta dolores quisquam, praesentium ab corrupti!"
+  title : "Nosotros"
+  content : "Cubrimos la totalidad de las áreas de negocio relacionadas con las nuevas tecnologías: desarrollo de páginas web, mantenimiento y soporte técnico. "
   button:
     enable : true
     label : "Learn more"
