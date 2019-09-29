@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- Section Intro Start -->
+{{ if .Site.Data.pricing.intro.enable }}
+{{ partial "intro.html" . }}
+{{ end }}
+<!-- Section Intro END -->
+
+{{ partial "pricing.html" . }}
+
+{{ end }}
