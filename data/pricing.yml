@@ -1,0 +1,50 @@
+########################## Intro ########################################
+intro:
+  enable : true
+
+########################## pricing ############################
+pricing:
+  title : "Business plan"
+  content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  pricingTable:
+    # pricing table loop
+    - pack : "Free"
+      duration : "User / Month"
+      price : "00"
+      highlight : ""
+      serviceList:
+        - serviceItem : "Up to 1 User"
+        - serviceItem : "Max 100 Item"
+        - serviceItem : "500 Queries"
+        - serviceItem : "Basic Statistics"
+      button:
+        label : "Join Now"
+        link : "#"
+        
+    # pricing table loop
+    - pack : "Basic"
+      duration : "User / Month"
+      price : "29"
+      highlight : "active"
+      serviceList:
+        - serviceItem : "Up to 1 User"
+        - serviceItem : "Max 100 Item"
+        - serviceItem : "500 Queries"
+        - serviceItem : "Basic Statistics"
+      button:
+        label : "Join Now"
+        link : "#"
+        
+    # pricing table loop
+    - pack : "Premium"
+      duration : "User / Month"
+      price : "59"
+      highlight : ""
+      serviceList:
+        - serviceItem : "Up to 1 User"
+        - serviceItem : "Max 100 Item"
+        - serviceItem : "500 Queries"
+        - serviceItem : "Basic Statistics"
+      button:
+        label : "Join Now"
+        link : "#"

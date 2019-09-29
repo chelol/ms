@@ -1,0 +1,234 @@
+################################## Banner #################################
+banner:
+  subtitle : "Prepare for new future"
+  title : "Helping customers be their best in the moments that matter."
+
+  button1:
+    enable : true
+    label : "Get started"
+    link : "pricing"
+
+  button2:
+    enable : true
+    label : "Discover Enov"
+    link : "service"
+
+######################## Banner call to action ############################
+bannerCTA:
+  enable : true
+  title : "Crafting visually stunning memorable experiences for web."
+  content : "Magni perspiciatis sequi, molestias dignissimos numquam placeat eveniet nobis rerum eos, facilis minus, est illo adipisci soluta dolores quisquam, praesentium ab corrupti!"
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+########################## Intro ########################################
+intro:
+  enable : true
+  title : "We provide best solution to client with their business problem"
+  introItem:
+    # intro item loop
+    - title : "Modern & Responsive design"
+      icon : "ti-wand"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
+      
+    # intro item loop
+    - title : "Awarded licensed company"
+      icon : "ti-medall"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
+
+######################## About #######################################
+about:
+  enable : true
+  image : "images/about/home-8.jpg"
+  title : "Forget about <br>design limits! Build and customize your portfolio"
+  content : "We provide consulting services in the area of IFRS and management reporting, helping companies
+            to reach their highest level. We optimize business processes, making them easier."
+  button:
+    enable : true
+    label : "Get started"
+    link : "pricing"
+
+##################### Funfacts ######################################
+funfacts:
+  enable : true
+  funItem:
+    # fanfacts item loop
+    - title : "Project Done"
+      count : "1730"
+      unit : "+"
+      
+    # fanfacts item loop
+    - title : "User Worldwide"
+      count : "125"
+      unit : "M"
+      
+    # fanfacts item loop
+    - title : "Availble Country"
+      count : "40"
+      unit : ""
+      
+    # fanfacts item loop
+    - title : "Award Winner"
+      count : "10"
+      unit : "+"
+
+######################### Service #####################################
+service:
+  enable : true
+  title : "Total Solution in one"
+  content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  # service item comes from "service.yml" file
+
+######################### pricing #####################################
+pricing:
+  enable : true
+  # pricing item comes from "pricing.yml" file
+
+############################# Team ##################################
+team:
+  enable: true
+  title : "Amazing Team"
+  content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
+  teamMember:
+    ################### team member loop
+    - name : "Justin hammer"
+      image : "images/team/team-1.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+          
+    ################### team member loop
+    - name : "Mikel Emily"
+      image : "images/team/team-2.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+          
+    ################### team member loop
+    - name : "David Spensor"
+      image : "images/team/team-3.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+          
+    ################### team member loop
+    - name : "Jason Roy"
+      image : "images/team/team-4.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+          
+    ################### team member loop
+    - name : "Peter Odin"
+      image : "images/team/team-1.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+          
+    ################### team member loop
+    - name : "David Spensor"
+      image : "images/team/team-4.jpg"
+      designation : "Project Manager"
+      social:
+        # social site loop
+        - icon : "ti-facebook"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-twitter-alt"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-linkedin"
+          link : "#"
+          
+        # social site loop
+        - icon : "ti-github"
+          link : "#"
+
+
+################################### promo video ##########################
+promoVideo:
+  enable : true
+  title : "See How we work!"
+  video : "https://www.youtube.com/watch?v=jrkvirglgaQ"
+  content: "Our mission is to produce the highest quality work for everyclient, on every project"
+
+############################## blog ####################################
+blog:
+  enable: true
+  title : "Latest News & Articles"
+  content : "Don’t just take our words for it. Our clients are our biggest supporters. Would you like to know what they
+            think about us?"
