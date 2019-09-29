@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://demo.themefisher.com/enov-hugo/"
+baseURL = "http://milsistemas.com"
 languageCode = "en-us"
 title = "Enov Hugo | Html5 Business template"
 theme = "enov-hugo"
