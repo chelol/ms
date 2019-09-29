@@ -1,7 +1,9 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://milsistemas.com"
 languageCode = "en-us"
-title = "Enov Hugo | Html5 Business template"
+title = "Mil Sistemas - Soluciones Informáticas"
+publishDir = "docs"
+themesDir = "themes"
 theme = "enov-hugo"
 summaryLength = "10"
 paginate = 4
@@ -51,7 +53,7 @@ paginate = 4
 [menu]
     
   [[menu.main]]
-  name = "About"
+  name = "Nosotros"
   URL = "about"
   weight = 2
   
@@ -61,39 +63,29 @@ paginate = 4
   weight = 3
 
   [[menu.main]]
+  name = "Portafolio"
+  URL = "project"
   weight = 4
-  name = "Pages"
-  hasChildren = true
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Portfolio"
-    URL = "project"
-
-    [[menu.main]]
-    parent = "Pages"
-    name = "Pricing"
-    URL = "pricing"
-
-    [[menu.main]]
-    parent = "Pages"
-    name = "Service"
-    URL = "service"
-    
   [[menu.main]]
   name = "Contact"
   URL = "contact"
   weight = 5
+  
+  [[menu.main]]
+  name = "Servicios"
+  URL = "service"
+  weight = 6
 
   ################# footer menu ##################
 
   [[menu.footer1]]
-  name = "service"
+  name = "Servicios"
   URL = "service"
   weight = 1
 
   [[menu.footer1]]
-  name = "about"
+  name = "Nosotros"
   URL = "about"
   weight = 2
   
@@ -102,12 +94,7 @@ paginate = 4
   URL = "blog"
   weight = 3
   
-  [[menu.footer1]]
-  name = "pricing"
-  URL = "pricing"
-  weight = 4
-
-  # footer menu 2
+   # footer menu 2
   [[menu.footer2]]
   name = "blog"
   URL = "blog"
@@ -131,11 +118,11 @@ paginate = 4
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-home = "Home"
-phone = "012548722120"
-email = "example@email.com"
-location = "290 Maryam Springs 260,Courbevoie, Paris, France"
-copyright = "&copy; 2019 a theme by [themefisher](https://themefisher.com/)"
+home = "Inicio"
+phone = "+59898637404"
+email = "contacto@milsistemas.com"
+location = "Dufort y alvarez, Montevideo, Uruguay"
+copyright = "&copy; Mil Sistemas"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -171,16 +158,7 @@ googleAnalitycsID = "Your ID"
   name = "Twitter"
   icon = "ti-twitter-alt"
   link = "#"
-  
-  [[params.social]]
-  name = "Vimeo"
-  icon = "ti-vimeo-alt"
-  link = "#"
-  
-  [[params.social]]
-  name = "Github"
-  icon = "ti-github"
-  link = "#"
+     
   
 ############################# post share links ######################
 [[params.postShare]]
@@ -196,9 +174,4 @@ link = "#"
 [[params.postShare]]
 icon = "ti-linkedin"
 name = "linkedin"
-link = "#"
-
-[[params.postShare]]
-icon = "ti-pinterest"
-name = "pinterest"
 link = "#"
