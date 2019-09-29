@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "milsistemas.com"
+baseURL = "http://milsistemas.com"
 languageCode = "en-us"
 title = "Enov Hugo"
 theme = "enov-hugo"
