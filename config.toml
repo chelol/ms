@@ -2,6 +2,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Enov Hugo"
+themesDir = "themes"
 theme = "enov-hugo"
 summaryLength = "10"
 paginate = 4
