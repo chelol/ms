@@ -1,5 +1,6 @@
 ######################## default configuration ####################
 baseURL = "http://milsistemas.com"
+HUGO_BASEURL = "http://milsistemas.com"
 languageCode = "en-us"
 title = "Enov Hugo"
 theme = "enov-hugo"
