@@ -2,6 +2,7 @@
 baseURL = "https://milsistemas.com"
 languageCode = "en-us"
 title = "Enov Hugo"
+publishDir = "docs"
 themesDir = "themes"
 theme = "enov-hugo"
 summaryLength = "10"
